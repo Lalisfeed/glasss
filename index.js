@@ -1,4 +1,5 @@
-const glasscss = (options) => {
+const glasscss = (options) => { 
+    options = JSON.stringify(options)
     let pieces = document.querySelectorAll(".glasscss");
     
     if (!options.back_ground || !(options.back_ground).length) {
@@ -19,20 +20,23 @@ const glasscss = (options) => {
         border_radius = `${options.border_radius}`;
     }
 
-    if (options.border_size === true) {
-        border_size = `1px solid rgba( 255, 255, 255, 0.18 )`;
+    if (options.border_width === true) {
+        border_width = `1px solid rgba( 255, 255, 255, 0.18 )`;
     } else {
-        border_size = `0px`;
+        border_width = `0px`;
     }
-
     
     pieces.forEach((piece) => {
-        piece.style.background = back_ground;
         piece.style.boxShadow = `0 8px 32px 0 rgba( 31, 38, 135, 0.37 )`;
+        piece.style.background = back_ground;
         piece.style.backdropFilter = backdrop_filter;
         piece.style.borderRadius = border_radius;
-        piece.style.border = border_size;
+        piece.style.border = border_width;
+        piece.style.color = color_value;
+        piece.style.margin = margin_value;
+        piece.style.padding = padding_value;
     })
 }
 
+// exporting values
 module.exports.glasscss = glasscss;
