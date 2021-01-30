@@ -1,11 +1,8 @@
 {
   "name": "glasss",
-  "version": "1.0.6",
-  "description": "",
-  "files": [
-    "glasss.js"
-  ],
-  "main": "glasss.js",
+  "version": "1.0.7",
+  "description": "An Npm Library for Glassmorphism",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,12 +12,11 @@
   },
   "keywords": [
     "css",
-    "glass",
-    "glassmorphism",
-    "front-end"
+    "front-end",
+    "glassmorphism"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Lalisfeed",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lalisfeed/glasss/issues"
   },
