@@ -1,8 +1,7 @@
 'use strict';
 
 // function for the glass morphism
-
-function glasss (options) {
+const glasss = (options) => {
     let pieces = document.querySelectorAll(".glasss");
     
     if (!options.BACKGROUND || !(options.BACKGROUND).length) {
@@ -40,5 +39,4 @@ function glasss (options) {
     return pieces
 }
 
-const _glasss = glasss;
-export { _glasss as glasss };
+module.exports = glasss
