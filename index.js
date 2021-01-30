@@ -2,8 +2,8 @@
 
 // function for the glass morphism
 
-function glasscss (options) {
-    let pieces = document.querySelectorAll(".glasscss");
+function glasss (options) {
+    let pieces = document.querySelectorAll(".glasss");
     
     if (!options.BACKGROUND || !(options.BACKGROUND).length) {
         BACKGROUND = `rgba(225,255,255, 0.25)`;        
@@ -39,4 +39,4 @@ function glasscss (options) {
     })
 }
 
-module.exports = {glasscss : glasscss}
+module.exports.glasss = glasss
