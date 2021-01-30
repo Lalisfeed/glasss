@@ -26,6 +26,10 @@ const glasscss = (options) => {
         border_width = `0px`;
     }
     
+    color_value = options.color_value
+    margin_value = options.margin_value
+    padding_value = options.padding_value
+    
     pieces.forEach((piece) => {
         piece.style.boxShadow = `0 8px 32px 0 rgba( 31, 38, 135, 0.37 )`;
         piece.style.background = back_ground;
