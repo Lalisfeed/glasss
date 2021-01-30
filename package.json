@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lalisfeed/glasscss.git"
+    "url": "git+https://github.com/Lalisfeed/glasss.git"
   },
   "keywords": [
     "css",
@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lalisfeed/glasscss/issues"
+    "url": "https://github.com/Lalisfeed/glasss/issues"
   },
-  "homepage": "https://github.com/Lalisfeed/glasscss#readme"
+  "homepage": "https://github.com/Lalisfeed/glasss#readme"
 }

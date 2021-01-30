@@ -39,4 +39,4 @@ function glasss (options) {
     })
 }
 
-module.exports.glasss = glasss
+module.exports.glasss = glasss;
