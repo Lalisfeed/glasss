@@ -37,6 +37,7 @@ function glasss (options) {
         piece.style.borderRadius = BORDERRADIUS;
         piece.style.border = BORDER;
     })
+    return pieces
 }
 
 const _glasss = glasss;
