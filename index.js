@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // function for the glass morphism
 
@@ -39,4 +39,5 @@ function glasss (options) {
     })
 }
 
-module.exports.glasss = glasss;
+const _glasss = glasss;
+export { _glasss as glasss };
