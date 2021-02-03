@@ -1,5 +1,4 @@
 const glasscss = (choices) => { 
-    choices = JSON.stringify(choices)
     let pieces = document.querySelectorAll(".glasscss");
     
     if (!choices.back_ground || !(choices.back_ground).length) {
@@ -20,16 +19,30 @@ const glasscss = (choices) => {
         border_radius = `${choices.border_radius}`;
     }
 
-    if (choices.border_wide === true) {
+    if (choices.border_wide) {
         border_wide = `1px solid rgba( 255, 255, 255, 0.18 )`;
     } else {
         border_wide = `0px`;
     }
     
-    color_value = choices.color_value
-    margin_value = choices.margin_value
-    padding_value = choices.padding_value
+    if (!choices.color_value) {
+        color_value = "white";
+    } else {
+        color_value = choices.color_value;
+    }
     
+    if (!choices.margin_value) {
+        margin_value = "10px";
+    } else {
+        margin_value = choices.margin_value;
+    }
+
+    if (!choices.padding_value) {
+        padding_value = "10px";
+    } else {
+        padding_value = choices.padding_value;
+    }
+
     pieces.forEach((piece) => {
         piece.style.boxShadow = `0 8px 32px 0 rgba( 31, 38, 135, 0.37 )`;
         piece.style.background = back_ground;
@@ -44,7 +57,6 @@ const glasscss = (choices) => {
 
 
 const glassClass = (objects) => { 
-    objects = JSON.stringify(objects);
     const classNames = Object.keys(objects);
     const classValues = Object.values(objects);
     classNames.forEach((className, classIndex) => {
@@ -69,15 +81,29 @@ const glassClass = (objects) => {
             border_radius = `${options.border_radius}`;
         }
     
-        if (options.border_wide === true) {
+        if (options.border_wide) {
             border_wide = `1px solid rgba( 255, 255, 255, 0.18 )`;
         } else {
             border_wide = `0px`;
         }
         
-        color_value = options.color_value
-        margin_value = options.margin_value
-        padding_value = options.padding_value
+        if (!options.color_value) {
+            color_value = "white";
+        } else {
+            color_value = options.color_value;
+        }
+
+        if (!options.margin_value) {
+            margin_value = `10px`;
+        } else {
+            margin_value = options.margin_value;
+        }
+        
+        if (!options.padding_value) {
+            padding_value = `10px`;
+        } else {
+            padding_value = options.padding_value;
+        }
         
         newClasses.forEach((newClass) => {
             newClass.style.boxShadow = `0 8px 32px 0 rgba( 31, 38, 135, 0.37 )`;
