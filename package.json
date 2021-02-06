@@ -1,6 +1,6 @@
 {
   "name": "glasss",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "An Npm Library for Glassmorphism",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,8 @@
   },
   "keywords": [
     "css",
+    "glasss",
+    "glasss-cli",
     "front-end",
     "glassmorphism"
   ],

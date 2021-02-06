@@ -2,19 +2,19 @@
 
 [![npm version](https://img.shields.io/npm/v/glasss.svg?style=flat-square)](https://www.npmjs.org/package/glasss) 
 [![install size](https://packagephobia.com/badge?p=glasss)](https://packagephobia.com/result?p=glasss) 
-[![npm downloads](https://img.shields.io/npm/dt/glasss.svg?style=flat-square)](http://npm-stat.com/charts.html?package=glasss) 
+[![npm downloads](https://img.shields.io/npm/dw/glasss.svg?style=flat-square)](http://npm-stat.com/charts.html?package=glasss) 
 
-# What is dis?
+## What is dis?
 
 >  A Glassmorphism based NPM Library 
 
-# Installation
+## Installation
 
 ```
 npm i glasss
 ```
 
-# How to Use
+## How to Use
 
 * **For Single Class Glassmorphism**
 
@@ -90,11 +90,14 @@ glassClass({
     }
 });
 ```
+## Tools
 
-# Congratulations
+- **[glasss-cli](https://npmjs.com/package/glasss-cli)** - A cli tool for this package
+
+## Congratulations
 
 That's all you have added **GLASSMORPHISM CSS** to your Web Page.
 
-# License
+## License
 
 > **MIT License**
