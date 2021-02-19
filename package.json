@@ -1,10 +1,10 @@
 {
   "name": "glasss",
-  "version": "1.1.4",
-  "description": "An Npm Library for Glassmorphism",
+  "version": "1.1.5",
+  "description": "An Npm Package for Glassmorphism Style",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Glasss package\" && exit 0"
   },
   "repository": {
     "type": "git",

@@ -2,16 +2,16 @@
 
 [![npm version](https://img.shields.io/npm/v/glasss.svg?style=flat-square)](https://www.npmjs.org/package/glasss) 
 [![install size](https://packagephobia.com/badge?p=glasss)](https://packagephobia.com/result?p=glasss) 
-[![npm downloads](https://img.shields.io/npm/dw/glasss.svg?style=flat-square)](http://npm-stat.com/charts.html?package=glasss) 
+[![npm downloads](https://img.shields.io/npm/dt/glasss.svg?style=flat-square)](http://npm-stat.com/charts.html?package=glasss) 
 
 ## What is dis?
 
->  A Glassmorphism based NPM Library 
+> An Npm Package for Glassmorphism Style
 
 ## Installation
 
 ```
-npm i glasss
+npm i glasss --save
 ```
 
 ## How to Use
@@ -96,7 +96,7 @@ glassClass({
 
 ## Congratulations
 
-That's all you have added **GLASSMORPHISM CSS** to your Web Page.
+Now you can write your code better than before.
 
 ## License
 
